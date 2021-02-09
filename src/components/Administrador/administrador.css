@@ -1,0 +1,17 @@
+
+#body{
+    display: flex;
+    overflow: hidden;
+}
+
+#panel-izquierdo-administrador{
+    width: 20%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#panel-central-administrador{
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+}

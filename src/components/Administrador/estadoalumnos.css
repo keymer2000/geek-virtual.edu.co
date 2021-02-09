@@ -1,0 +1,77 @@
+.cont-progress{
+    height: 60px;
+    position: relative;
+    background-color: rgb(214, 214, 214);
+}
+
+.cont-progress-bar{
+    position: absolute;
+    height: 100%;
+}
+
+
+#progress-bar-color-1{
+    background-color: rgb(32, 172, 4);
+    width: 90%;
+}
+
+#progress-bar-color-2{
+    background-color: rgb(243, 120, 120);
+    width: 60%;
+}
+
+#progress-bar-color-3{
+    background-color: rgb(132, 233, 86);
+    width: 55%;
+}
+
+#progress-bar-color-4{
+    background-color: rgb(0, 166, 172);
+    width: 67%;
+}
+
+#progress-bar-color-5{
+    background-color: rgb(219, 243, 109);
+    width: 40%;
+}
+
+#progress-bar-color-6{
+    background-color: rgb(250, 145, 8);
+    width: 30%;
+}
+
+#progress-bar-color-7{
+    background-color: rgb(64, 123, 233);
+    width: 79%;
+}
+
+#progress-bar-color-8{
+    background-color: rgb(143, 77, 77);
+    width: 50%;
+}
+
+#progress-bar-color-9{
+    background-color: rgb(55, 238, 101);
+    width: 66%;
+}
+
+#progress-bar-color-10{
+    background-color: rgb(86, 204, 233);
+    width: 87%;
+}
+
+#progress-bar-color-11{
+    background-color: rgb(70, 233, 64);
+    width: 70%;
+}
+
+#progress-bar-color-12{
+    background-color: rgb(98, 91, 206);
+    width: 55%;
+}
+
+.cont-nombre{
+    color: black;
+    font-size: 18px;
+    margin: 10px;
+}

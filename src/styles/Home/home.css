@@ -1,0 +1,28 @@
+
+#cont-login{
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+#cont-login:hover{
+    background-color: rgb(248, 4, 155);
+    color: white;
+}
+
+.cont-header{
+    border-bottom: 1px solid blue;
+}
+
+.cont-tu-plataforma{
+    padding: 5px 0px 5px 0px;
+    background-color: rgb(43, 43, 247);
+    color: white;
+}
+
+.cont-aprendizaje{
+    border-radius: 15px;
+    box-shadow: 1px 1px 6px 1px;
+}
+
+

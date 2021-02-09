@@ -1,0 +1,46 @@
+#cont-navegador{
+    max-width: 20%;
+    min-width: 20%;
+}
+
+#navegador{
+    padding-left: 0px; 
+    display: block;
+    padding: 10px;
+    background-color: rgb(231, 228, 228); 
+
+
+} 
+#navegador > li{
+    list-style: none;
+    
+}
+
+#navegador > li > a{
+    /* background-color: white; */
+   color: rgb(39, 27, 27);
+   padding: 8px;
+   font-weight: 600;
+   font-size: 16.5px;
+   border-radius: 5px;
+   
+}
+
+#navegador > li > a:hover{
+    background-color: white;
+    
+} 
+
+#cont-colaboradores{
+    padding: 10px;
+}
+
+#cont-img{
+float: center;}
+
+/* configuracion de estilos para el panel central */
+
+#cont-anuncios{
+    width: 80%;
+    /* padding: 0 20px 0 20px; */
+}

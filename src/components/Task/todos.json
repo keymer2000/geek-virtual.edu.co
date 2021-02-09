@@ -1,0 +1,23 @@
+{
+    "todos": [
+        {
+            "title": "pagina tributo FCC",
+            "responsible": "keymer",
+            "description": "realizar pagina tributo free code camp",
+            "priority": "low"
+          },
+          {
+            "title": "formulario FCC",
+            "responsible": "keymer",
+            "description": "desarrollar formulario de encuesta FCC",
+            "priority": "medium"
+          },
+          {
+            "title": "GeekBook Web",
+            "responsible": "keymer",
+            "description": "realizar los retos del gitbook web",
+            "priority": "high"
+          }
+    ]
+  }
+  

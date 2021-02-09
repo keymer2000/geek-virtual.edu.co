@@ -1,0 +1,11 @@
+#contenedor-de-documentacion{
+    width: 80%;
+    margin: auto;
+    
+}
+
+#contenedor-de-documentacion > div{
+    text-align: center;
+    
+}
+

@@ -1,0 +1,45 @@
+
+#title-geek{
+    text-align: center;
+    font-size: 9rem;
+    font-weight: 700;
+    color: rgb(9, 139, 148);
+}
+
+#cont-icon-anuncio-boton{
+    display: flex;
+}
+
+#title-anuncio{
+    margin-left: 10px;
+}
+
+#icon-anuncio{
+    color: black;
+    margin-right: 10px;
+
+}
+
+#boton-modal-anuncio{
+    font-weight: 900;
+    margin: auto;
+    font-size: 25px;
+    font-family: sans-serif;
+    width: 35%;
+    color: black;
+    
+}
+
+#cont-fila-anuncio{
+    background-image: url(../../img/anuncio.JPG);
+    background-repeat: no-repeat;
+}
+
+#area-anuncio{
+    margin-left: 90px;
+    margin-top: 80px;
+    width: 470px;
+    height: auto;
+    font-weight: 600;
+
+}

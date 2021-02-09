@@ -1,0 +1,92 @@
+#cont-general-instructores {
+    margin: 0;
+    padding: 0;
+    /* background: url(../../img/desktop.png) no-repeat 0px 0px; */
+    min-height: 100vh;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    background-color:#5bb6ff;
+    padding: 25px;
+}
+
+
+.cont-login-form{
+    background-color: #bde1ff;
+    max-width: 500px;
+    margin: 0px auto;
+    padding: 1em 3em;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px 2px;
+}
+
+.cont-login-form .title-login {
+    margin: 0;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    /* letter-spacing: 1px; */
+    /* padding: 50px 0; */
+}
+
+
+.cont-form-group{
+    margin: 20px 0px;
+}
+
+.cont-form-group .label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.group-icon-input{
+    display: flex;
+    padding: 8px 5px;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+
+.group-icon-input .iconos{
+    color: #2c15ff;
+    font-size: 20px;
+    margin: 8px 5px;
+}
+
+
+
+.input-login[type="text"],
+.input-login[type="password"] {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    background: transparent;
+    color: #000;
+}
+
+.input-login[type="text"]:focus,
+.input-login[type="password"]:focus {
+    outline: none;
+}
+
+.button-login {
+    background-color: #3d29f5;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    padding: 12px 60px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 6px;
+   
+}
+
+.button-login:hover {
+    background-color: #2c15ff;
+}
