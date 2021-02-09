@@ -3,7 +3,6 @@ import './../../styles/ContBootcamp/BootcampMain.css'
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Evidence from './../ContenidoBootcamp/Evidence'
-import Evidence2 from './../ContenidoBootcamp/Evidence2'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFolderPlus, faFileCode} from "@fortawesome/free-solid-svg-icons";
 
@@ -63,7 +62,6 @@ function BootcampMain() {
                     <section className="col- border" id="menu-central-de-tareas">
                         <Switch>
                             <Route path="/Evidence/pagina-tributo" exact render={(props) => <Evidence {...props} />}></Route>
-                            <Route path="/Evidence2/prueba2" exact render={(props) => <Evidence2 {...props} />}></Route>
                         </Switch>
                     </section>
                 </div>
