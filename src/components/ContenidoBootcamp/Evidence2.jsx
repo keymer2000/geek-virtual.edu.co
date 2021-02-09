@@ -68,7 +68,7 @@ class Evidence extends Component {
             <br/>
             <div className="">
               <div className="">
-                {/* {tareas} */}
+                {tareas}
               </div>
             </div>
           </div>

@@ -14,14 +14,14 @@ export default function DashboardNav(props) {
                 <section className="col- border border-dark" id="cont-navegador">
                     <nav className="" >
                         <ul className="nav nav-tabs" id="navegador">
-                            <li className="nav-item "><Link className={"nav-link"+(props.match.path=="/Posts"?" active": "")}to="Posts">Anuncios</Link></li>
-                            <li className="nav-item"><Link className={"nav-link"+(props.match.path=="/BootcampMain"?" active": "")} to="/BootcampMain">Contenido del bootcamp</Link></li>
-                            <li className="nav-item "><Link className={"nav-link"+(props.match.path=="/ForumMain"?" active": "")}   to="/ForumMain">Foro Social</Link></li>
-                            <li className="nav-item "><Link className={"nav-link"+(props.match.path=="/TaskMain"?" active": "")}   to="/TaskMain">Tareas</Link></li>
-                            <li className="nav-item "><Link className={"nav-link"+(props.match.path=="/Cronograma-general"?" active": "")}   to="/Cronograma-general">Cronograma General</Link></li>
-                            <li className="nav-item"><Link className={"nav-link"+(props.match.path=="/DocMain"?" active": "")} to="/DocMain">Documentación reglamentaria</Link></li>
-                            <li className="nav-item"><Link className={"nav-link"+(props.match.path=="/ParticipantsMain"?" active": "")} to="/ParticipantsMain">Estudiantes</Link></li>
-                            <li className="nav-item"><Link className={"nav-link"+(props.match.path=="/InstructorsMain"?" active": "")} to="/InstructorsMain">Instructores</Link></li>
+                            <li className="nav-item "><Link className={"nav-link"+(props.match.path==="/Posts"?" active": "")}to="Posts">Anuncios</Link></li>
+                            <li className="nav-item"><Link className={"nav-link"+(props.match.path==="/BootcampMain"?" active": "")} to="/BootcampMain">Contenido del bootcamp</Link></li>
+                            <li className="nav-item "><Link className={"nav-link"+(props.match.path==="/ForumMain"?" active": "")}   to="/ForumMain">Foro Social</Link></li>
+                            <li className="nav-item "><Link className={"nav-link"+(props.match.path==="/TaskMain"?" active": "")}   to="/TaskMain">Tareas</Link></li>
+                            <li className="nav-item "><Link className={"nav-link"+(props.match.path==="/Cronograma-general"?" active": "")}   to="/Cronograma-general">Cronograma General</Link></li>
+                            <li className="nav-item"><Link className={"nav-link"+(props.match.path==="/DocMain"?" active": "")} to="/DocMain">Documentación reglamentaria</Link></li>
+                            <li className="nav-item"><Link className={"nav-link"+(props.match.path==="/ParticipantsMain"?" active": "")} to="/ParticipantsMain">Estudiantes</Link></li>
+                            <li className="nav-item"><Link className={"nav-link"+(props.match.path==="/InstructorsMain"?" active": "")} to="/InstructorsMain">Instructores</Link></li>
                         </ul>
                     </nav>
                     <hr/>
